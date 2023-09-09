@@ -1,0 +1,312 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+header{
+    background-color:#1c74cc;
+    height:20vh;
+
+    
+
+}
+.head{
+    display:flex;
+    justify-content: space-around;
+    height: 13vh;
+    color:rgb(255, 255, 255);
+    align-items: center ;
+}
+
+.search_bar{
+    border-radius: 30px;
+    width:30vw;
+    height:5vh;
+}
+
+.head_image{
+    height:10vh;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+}
+
+.need_small{
+    font-size:11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+}
+
+#order,#signup,#department,#service{
+    display:flex;
+    align-items: center;
+    
+    
+}
+
+.line_below_head{
+    border: none;
+    border-top: 1px solid white;
+}
+.belowhead{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.methodofgetting{
+    display: flex;
+    justify-content: space-between;
+    padding-left:10%;
+}
+/* Style for phone details */
+.phone-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for individual phone */
+.phone {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style for phone image */
+.phone-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for specifications */
+.specs {
+    font-style: italic;
+    color: #555;
+}
+
+/* Style for price */
+.price {
+    color: green;
+    font-size: larger;
+}
+
+/* Style for "Add to Cart" button */
+.add-to-cart-button {
+    background-color: #1c74cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* ... Previous styles ... */
+
+/* Style for delivery, pickup, warranty, more details, and ratings */
+.phone h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.phone p {
+    margin: 5px 0;
+}
+
+/* Style for "Read reviews" link */
+.phone a {
+    color: #1c74cc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.rating-stars {
+    color: gold;
+    margin-right: 5px;
+}
+
+.rating-value {
+    font-weight: bold;
+}
+
+
+
+.phone {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 2%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phone-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.phone-title {
+    color: #1c74cc;
+}
+
+ .specs {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    color: #555;
+   padding-left: 25px;
+} 
+
+
+
+
+.price {
+    color: green;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #1c74cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.specs{
+    display: flex;
+}
+
+.main_right{
+    display: flex;
+    
+}
+.main{
+    display:flex;
+}
+
+.qa-section {
+
+    .reviews-section {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    
+    .review {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    
+    .reviewer-name {
+        font-weight: bold;
+    }
+    
+    .review-rating {
+        color: #1c74cc;
+    }
+    
+    .review-text {
+        color: #555;
+    }
+    
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.qa-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.question {
+    font-weight: bold;
+    color: #1c74cc;
+    margin-bottom: 5px;
+}
+
+.answer {
+    color: #555;
+}
+
+
+
+.reviews-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.review {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+.review-rating {
+    color: #1c74cc;
+}
+
+.review-text {
+    color: #555;
+}
+
+
+
+

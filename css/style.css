@@ -1,0 +1,214 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+header{
+    background-color:#1c74cc;
+    height:20vh;
+
+    
+
+}
+.head{
+    display:flex;
+    justify-content: space-around;
+    height: 13vh;
+    color:white;
+    align-items: center ;
+}
+
+.search_bar{
+    border-radius: 30px;
+    width:30vw;
+    height:5vh;
+}
+
+.head_image{
+    height:10vh;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+}
+
+.need_small{
+    font-size:11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+}
+
+#order,#signup,#department,#service{
+    display:flex;
+    align-items: center;
+    
+    
+}
+
+.line_below_head{
+    border: none;
+    border-top: 1px solid white;
+}
+.belowhead{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.methodofgetting{
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid rgb(255, 254, 254); /* Adjust thickness and color as needed */
+           height: 4vh;
+           color: rgb(255, 251, 251);
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+.address{
+    display:flex;
+    color: rgb(255, 251, 251);
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+    .body{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sidebar {
+        flex: 1;
+        background-color: white;
+        margin-top: 15px;
+    }
+    
+    .main-content {
+        flex: 3;
+        background-color: white;
+        margin-top: 15px;
+        margin-left: 10%;
+    }
+
+    .above_body{
+        display:flex;
+        justify-content: space-between;
+        padding-top: 1%;
+    }
+
+    .above_header_img{
+        height:4vh;
+        width: 2vw;
+        background-color:rgb(216,213,213);
+        
+    }
+
+    .store,.speed,.brand,.price{
+        display: flex;
+        border: 1px solid rgb(248, 246, 246);
+        border-radius: 18px;
+        background-color:rgb(250, 247, 247);
+        padding: 10px;
+        align-items: center;
+    }
+    .first_part_of_above_body{
+        display: flex;
+        flex:2;
+        justify-content: space-between;
+    }
+
+    .second_part_of_above_body{
+        flex:4;
+    }
+    .notes{
+        display:flex;
+        align-items: center;
+    }
+
+    .notes_in_head{
+        padding-top: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    #popular_pick{
+        border:1px solid blue;
+        width:7vw;
+        padding:5px;
+        margin-top: 10px;
+        color: #1c74cc;
+    }
+     .phones{
+        padding-top: 30px;
+        display: flex;
+    }
+    .phone_img{
+        width:17vw;
+        height:40vh;
+    }
+    
+.iphone p, .samsung p, .oppo p, .vivo p {
+    padding-left: 0;
+}
+
+
+.iphone, .samsung, .oppo, .vivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center align text */
+    margin: 0 20px; /* Add some horizontal margin for spacing */
+}
+
+
+.iphone i, .samsung i, .oppo i, .vivo i {
+    color: #17191c;
+    font-size: 20px;
+    margin-bottom: 5px; 
+}
+
+
+.cart_button {
+    background-color: #1c74cc;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    margin-top: 5px; 
+}
+
+
+#price {
+    color: green;
+    font-size: larger;
+    margin-top: 5px; /* Add some space above the price */
+}
+
+
+.iphone p, .samsung p, .oppo p, .vivo p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.iphone i, .samsung i, .oppo i, .vivo i{
+padding-left: 90%;
+}
+
+
+    
+
+
+ 
